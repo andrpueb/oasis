@@ -1,0 +1,118 @@
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 5px;
+  text-align: center;
+}
+h1{
+  font-size: 14px;
+  margin: auto;
+  color: #f7f7f7;
+  text-align: center;
+  padding-top: 25px;
+  max-width: 60vw;
+}
+
+h2{
+  font-size: 1px;
+  max-width: 60vw;
+  font-weight: lighter;
+  color: #f7f7f7;
+
+}
+
+hr{
+  width: 100px;
+  border-width: 5px 0 0 0;
+  background-color: #f7f7f7;
+  font-weight: 100;
+}
+
+div {
+  width: 100vw;
+  padding: 0px;
+  margin-top: 20px;
+}
+
+header{
+  max-width: 100vw;
+  height: 200px;
+  background-image: url(../images/lookbook-intro.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.first{
+  display: inline-block;
+}
+
+.first img{
+  width: 40vw;
+  border: 0px;
+  margin: 0px;
+}
+
+
+.third img{
+  width: 40vw;
+  border: 0px;
+  margin: 0px;
+}
+
+.second img{
+  width: 100vw;
+}
+.second img:first-of-type{
+  padding: 20px;
+}
+
+.fourth img{
+  width: 100vw;
+}
+
+.fourth img:first-of-type{
+  padding: 20px;
+}
+
+footer{
+  width: 100%;
+  height: 20vw;
+  background-image: url(../images/lookbook-outro.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (min-width: 650px) {
+  .second img{
+    max-width: 40vw;
+    padding: 20px !important;
+  }
+  .fourth img{
+    max-width: 40vw;
+    padding: 20px !important;
+  }
+  .first img{
+    width: 30vw;
+  }
+
+  .third img{
+    width: 30vw;
+  }
+  h1{
+    font-size: 26px;
+;
+  }
+
+  h2{
+    font-size: 20px;
+  }
+}
